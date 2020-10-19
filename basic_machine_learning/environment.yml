@@ -1,0 +1,15 @@
+name: hackntu_week02
+channels:
+- defaults
+dependencies:
+- graphviz
+- ipython
+- matplotlib
+- notebook
+- numpy
+- pillow
+- pip
+- scikit-learn
+- scipy
+- pip:
+  - pydot-ng
