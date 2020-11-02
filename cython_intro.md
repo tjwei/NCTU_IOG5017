@@ -37,3 +37,45 @@ slideOptions:
 * ctypes
 * pybind11
 * SWIG
+
+---
+
+## Cython
+* Cython is Python with C data types.
+* Almost any Python code is valid in Cython
+* For 
+  * speed 
+  * writing extensions
+
+---
+
+## Hello world
+helloworld.pyx
+```python
+print("Hello")
+```
+
+---
+
+## Setup.py
+```python
+from setuptools import setup
+from Cython.Build import cythonize
+
+setup(
+    ext_modules = cythonize("helloworld.pyx")
+)
+```
+
+---
+
+## Compile and import
+
+```bash
+$ python setup.py build_ext --inplace
+```
+
+```python
+>>> import helloworld
+Hello World
+```
