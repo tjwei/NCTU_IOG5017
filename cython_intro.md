@@ -1,3 +1,8 @@
+---
+title: Cython intro
+slideOptions:        
+  theme: simple
+---
 # Cython intro
 
 ---
