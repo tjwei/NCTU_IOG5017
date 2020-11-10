@@ -79,3 +79,11 @@ $ python setup.py build_ext --inplace
 >>> import helloworld
 Hello World
 ```
+
+
+---
+
+```
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\"vcvars64.bat
+cl /Ox -Ic:\Users\tzerj\Anaconda3\envs\test\include /Tcgo.c /link /out:"go.exe" /subsystem:console /libpath:c:\Users\tzerj\Anaconda3\envs\test\libs
+```
