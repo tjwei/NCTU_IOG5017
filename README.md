@@ -14,6 +14,12 @@
    * ipywidgets: https://ipywidgets.readthedocs.io/en/latest/
    * binder: https://mybinder.org/
    * voila: https://github.com/voila-dashboards/voila
+   * https://github.com/jupyter-widgets/tutorial/blob/master/outline.md
+   * https://ipywebrtc.readthedocs.io/en/latest/
+   * https://github.com/jupyter-widgets/ipyleaflet
+   * https://github.com/jupyter-widgets/pythreejs
+   * https://github.com/InsightSoftwareConsortium/itkwidgets
+   * Euro SciPy Tutorial: https://github.com/jupyter-widgets/tutorial
 
 
 
